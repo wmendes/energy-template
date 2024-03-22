@@ -1634,6 +1634,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@openzeppelin/contracts@npm:^5.0.2":
+  version: 5.0.2
+  resolution: "@openzeppelin/contracts@npm:5.0.2"
+  checksum: 0cce6fc284bd1d89e2a447027832a62f1356b44ee31088899453e10349a63a62df2f07da63d76e4c41aad9c86b96b650b2b6fc85439ef276850dda1170a047fd
+  languageName: node
+  linkType: hard
+
 "@openzeppelin/contracts@npm:~4.8.1":
   version: 4.8.3
   resolution: "@openzeppelin/contracts@npm:4.8.3"
@@ -7976,6 +7983,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"hardhat-ethers@npm:^1.0.1":
+  version: 1.0.1
+  resolution: "hardhat-ethers@npm:1.0.1"
+  checksum: bdc4b611008c7d25567a13dd8a4fcfbda41009299977438054fac19233446e5af074082f86f6eb63edf44f90d089323e0008e734d978ded20f68823bbc337aac
+  languageName: node
+  linkType: hard
+
 "hardhat-gas-reporter@npm:~1.0.9":
   version: 1.0.10
   resolution: "hardhat-gas-reporter@npm:1.0.10"
@@ -11838,6 +11852,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "se-2@workspace:."
   dependencies:
+    "@openzeppelin/contracts": ^5.0.2
+    hardhat-ethers: ^1.0.1
     husky: ~8.0.3
     lint-staged: ~13.2.2
     next: ~14.0.4
